@@ -1,0 +1,54 @@
+* { box-sizing: border-box; }
+nav { float: left;
+	  width: 150px;
+	  letter-spacing:0.1em;
+	  font-weight: bold;
+	  background-color: #79BEA8;
+} 
+nav li { border-bottom: 1px solid #ffffff;
+}
+nav a { text-decoration: none; 
+        display: block;
+		padding: 15px;
+}
+nav ul { list-style-type: none; 
+         margin: 0;
+         padding: 0;
+}
+nav a:link { color: #ffffff; }
+nav a:visited { color: #eaeaea; }
+nav a:hover {  color: #79BEA8; 
+               background-color: #eaeaea;
+}
+header { background-color: #23483C;
+		 color: #E7F3EF; 
+		 padding: 10px;
+		 text-align: center;
+}
+h2 { color: #23483C;
+}
+main { margin-left: 200px;
+}
+.EFF { text-indent: -9999px;
+   width: 600px;
+   height: 150px;
+   background: url(efflogo.png) #cccccc no-repeat; 
+}  /*This code is a technique called Header Text Replacement provides accessibility and SEO*/
+footer { text-align: center;         
+		font-style: italic;             
+		clear: both; 
+}
+body {
+	background-color: #E7F3EF;
+}
+p { font-family: Georgia, "Times New Roman", serif; 
+	color: #093426;
+	 line-height: 200%;
+}
+.about { margin: auto;
+}
+.twitter-tweet { display: flex; 
+		justify-content: center;
+}
+small { text-align: left;
+}

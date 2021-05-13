@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="favicon.ico"> 
+<title>Encrypting The Web</title>
+<meta charset="utf-8">
+<meta name="description" content="Encrypting The Web">
+<meta name="author" content="Jarredruiz">
+<link rel="stylesheet" href="sslcert.css">
+</head>
+<body>
+<header>
+		<h1>SSL Certificate</h1>
+</header>
+<nav>
+	<ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="eff.html">EFF</a></li>
+      <li><a href="https.html">HTTPS</a></li>
+	  <li><a href="sslwork.html">How Does SSL Work?</a></li>
+	  <li><a href="sslcert.html">SSL Certificate</a></li>
+	  <li><a href="contact.html">Who to Contact?</a></li>
+	  <li><a href="sitemap.html">Site Map</a></li>
+	 </ul>
+ </nav>
+ <main>
+ <h2>What is A Certificate?</h2>
+ <p>A certificate is an indication that the site you are trying to reach is secure only when signed by a Certificate authority(CA).<br>
+ In a certificate includes the domain, public key, private key, signature by CA, and other information regarding the certificate itself.<br>
+ There are two types of encryption that certificates use in order to authenticate client and server, they are asymmetric encryption and symmetric encryption.<br>
+ Asymmetric can be referred to as public key which works for encryption because any data that is encrypted by the public key can only be decrpyted by the private key.<br>
+ Only the Certificate contains the public key and private key which ensures a secure connection between the client and the serer. Symmetric encryption is a type of encryption used after a session has been created.<br>
+ After the pubic and private keys are used for asymmetric encryption, the session keys are used by both client and server. 
+ </p>
+ <img src= "trustedCA.jpg" width="450" height="250"> This is a screen showing some big name CA that allow you to use public key encryption through SSL. On the right, is what happens when you do a self sign without a CA.<br>
+ <small>Image Source By <a href="https://cheapsslsecurity.com/blog/self-signed-ssl-versus-trusted-ca-signed-ssl-certificate/ target="_blank" rel="noopener noreferrer">Savvy Security</a></small>
+ </main>
+
+</body>
+<footer>  
+		<i>Copyright &copy; 2021 Jarred Ruiz ITEC 231   |   <a href="sitemap.html">Site Map</a></i>
+	</footer>
+</html>
